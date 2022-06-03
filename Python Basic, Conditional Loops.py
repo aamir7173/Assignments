@@ -10,9 +10,8 @@ print([x for x in range(2000,3200) if (x%7==0 and x%5!=0)])
 # In[76]:
 
 
-firstname = input("Input your First Name :")
-lastname = input("Input your Last Name :")
-print (lastname," ",firstname)
+a=input("input your first name 'space' last name")
+print(a[::-1])
 
 
 # In[69]:
